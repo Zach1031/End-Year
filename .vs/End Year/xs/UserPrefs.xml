@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{B5C2EF87-0429-912C-D07C-03AE11A28DF7}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ShootController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ShootController.cs" Line="129" Column="27" />
+      <File FileName="Assets/Scripts/SoundController.cs" Line="31" Column="25" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
