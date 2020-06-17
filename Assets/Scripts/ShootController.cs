@@ -9,14 +9,20 @@ public class ShootController : MonoBehaviour
     public GameObject crosshair;
     public GameObject laser;
     public GameObject rotationPoint;
+<<<<<<< HEAD
     public GameObject ammoCircle;
+=======
+>>>>>>> bbf1258788002d20e43dbeeb251746492433dfb0
 
     public SoundController soundController;
 
     public Vector3 mousePos;
 
+<<<<<<< HEAD
     public bool spinning;
 
+=======
+>>>>>>> bbf1258788002d20e43dbeeb251746492433dfb0
     public Image ammoCounter;
     public Text currentAmmoCounter;
     public Text totalAmmoCounter;
@@ -43,15 +49,24 @@ public class ShootController : MonoBehaviour
     {
         CheckShoot();
         CheckReload();
+<<<<<<< HEAD
         UpdateUI();
     }
 
     public void DoTransformation(float zVal, bool flipped)
+=======
+        DoTransformation();
+        UpdateUI();
+    }
+
+    private void DoTransformation()
+>>>>>>> bbf1258788002d20e43dbeeb251746492433dfb0
     {
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
         //transform.LookAt(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector3.up);
 
+<<<<<<< HEAD
 
         
         transform.LookAt(2 * transform.position - mousePos);
@@ -64,6 +79,13 @@ public class ShootController : MonoBehaviour
 
 
         transform.localPosition = new Vector3(.073f, -.025f, zVal);
+=======
+        transform.LookAt(2 * transform.position - mousePos);
+
+        transform.rotation = new Quaternion(0f, 0f, transform.rotation.z, transform.rotation.w);
+
+        transform.localPosition = new Vector3(.073f, -.025f, -.1f);
+>>>>>>> bbf1258788002d20e43dbeeb251746492433dfb0
     }
 
     public Vector3 getMousePos()
@@ -127,8 +149,11 @@ public class ShootController : MonoBehaviour
 
     private IEnumerator Reload()
     {
+<<<<<<< HEAD
         spinning = true;
 
+=======
+>>>>>>> bbf1258788002d20e43dbeeb251746492433dfb0
         yield return new WaitForSeconds(reloadTime);
 
         if (bullets < 1)
@@ -137,15 +162,20 @@ public class ShootController : MonoBehaviour
         else
             totalBullets -= MAX_MAG - bullets;
 
+<<<<<<< HEAD
         bullets = MAX_MAG;
 
         spinning = false;
+=======
+        bullets = MAX_MAG;
+>>>>>>> bbf1258788002d20e43dbeeb251746492433dfb0
     }
 
     private void UpdateUI()
     {
         ammoCounter.fillAmount = bullets / MAX_MAG;
 
+<<<<<<< HEAD
         currentAmmoCounter.text = bullets + "/" + MAX_MAG;
         totalAmmoCounter.text = totalBullets.ToString();
 
@@ -157,3 +187,11 @@ public class ShootController : MonoBehaviour
     }
 }
 
+=======
+        Debug.Log(bullets / MAX_MAG);
+
+        currentAmmoCounter.text = bullets + "/" + MAX_MAG;
+        totalAmmoCounter.text = totalBullets.ToString();
+    }
+}
+>>>>>>> bbf1258788002d20e43dbeeb251746492433dfb0

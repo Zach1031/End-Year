@@ -191,6 +191,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!1 &1016084807
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,6 +436,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> bbf1258788002d20e43dbeeb251746492433dfb0
 --- !u!1 &1584566336
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,6 +520,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1647863932
 GameObject:
   m_ObjectHideFlags: 0
@@ -596,6 +600,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647863932}
   m_CullTransparentMesh: 0
+=======
+>>>>>>> bbf1258788002d20e43dbeeb251746492433dfb0
 --- !u!1 &1813247508
 GameObject:
   m_ObjectHideFlags: 0
@@ -607,6 +613,10 @@ GameObject:
   - component: {fileID: 1813247509}
   - component: {fileID: 1813247511}
   - component: {fileID: 1813247510}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 1813247512}
+>>>>>>> bbf1258788002d20e43dbeeb251746492433dfb0
   m_Layer: 0
   m_Name: Cow
   m_TagString: Untagged
@@ -695,6 +705,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+=======
+--- !u!114 &1813247512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813247508}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77f430db0ba74a67a7485572c69adc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cowPivotPoint: {fileID: 0}
+>>>>>>> bbf1258788002d20e43dbeeb251746492433dfb0
 --- !u!1 &1902197592
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,7 +746,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1902197592}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: -27.951542, y: 0.8539771, z: 10}
+=======
+  m_LocalPosition: {x: -27.951542, y: 0.8539771, z: 10.404754}
+>>>>>>> bbf1258788002d20e43dbeeb251746492433dfb0
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 2109137192}
@@ -774,6 +804,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!1 &2095189684
 GameObject:
   m_ObjectHideFlags: 0
@@ -853,6 +884,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> bbf1258788002d20e43dbeeb251746492433dfb0
 --- !u!1 &2109137191
 GameObject:
   m_ObjectHideFlags: 0

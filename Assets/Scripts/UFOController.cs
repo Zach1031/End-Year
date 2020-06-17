@@ -22,12 +22,15 @@ public class UFOController : MonoBehaviour
     void Update()
     {
         MoveToPlayer();
+<<<<<<< HEAD
 
         transform.position = new Vector3(transform.position.x, transform.position.y, 0);
 
         Debug.DrawRay(transform.position, player.transform.position, Color.red, .001f);
 
         CheckCollision();
+=======
+>>>>>>> bbf1258788002d20e43dbeeb251746492433dfb0
     }
 
     //Called by the weapon when it shoots the UFO
@@ -66,6 +69,7 @@ public class UFOController : MonoBehaviour
 
     private void Die()
     {
+<<<<<<< HEAD
         Debug.Log("I'm Died");
         soundController.PlayExplosion();
         DestroyImmediate(this.gameObject);
@@ -95,4 +99,20 @@ public class UFOController : MonoBehaviour
             }
         }
     }
+=======
+        soundController.PlayExplosion();
+        Destroy(this.gameObject);
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        Debug.Log(collision.gameObject);
+        if (collision.gameObject.tag.Equals("Player"))
+        {
+            collision.gameObject.GetComponent<PlayerController>().TakeDamage();
+            Destroy(this.gameObject);
+        }
+    }
+
+>>>>>>> bbf1258788002d20e43dbeeb251746492433dfb0
 }

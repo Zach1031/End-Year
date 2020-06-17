@@ -62,14 +62,20 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CursorController.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\HourglassController.cs" />
+=======
+>>>>>>> bbf1258788002d20e43dbeeb251746492433dfb0
     <Compile Include="Assets\Scripts\LaserFader.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\ShootController.cs" />
     <Compile Include="Assets\Scripts\SoundController.cs" />
     <Compile Include="Assets\Scripts\SpawnController.cs" />
     <Compile Include="Assets\Scripts\StartController.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\TimeLeft.cs" />
+=======
+>>>>>>> bbf1258788002d20e43dbeeb251746492433dfb0
     <Compile Include="Assets\Scripts\UFOController.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/zachdefazio/Documents/End Year/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
